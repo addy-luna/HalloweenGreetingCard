@@ -4,17 +4,17 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #111;
+    background-color: #ffffff;
     flex-direction: column;
   }
   
   .card {
-    background-color: #333;
-    color: #fff;
+    background-color: #060505;
+    color: rgb(208, 17, 17);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(163, 143, 143, 0.5);
     
   }
   
@@ -33,7 +33,7 @@ body {
     font-size: 40px;
     color: var(--white);
     letter-spacing: 0.7em;
-    background-color: black;
+    background-color: rgb(124, 22, 22);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,8 +50,8 @@ body {
     content: '';
     width: 150%;
     -webkit-box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
-    -moz-box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
-    box-shadow: -35px 0px 60px 8px rgba(255,255,255,1);
+    -moz-box-shadow: -35px 0px 60px 8px rgb(236, 227, 227);
+    box-shadow: -35px 0px 60px 8px rgb(234, 34, 34);
   }
   #L, #G {
     animation: flickerLG 2s linear reverse infinite;
